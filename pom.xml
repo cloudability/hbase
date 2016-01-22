@@ -39,7 +39,7 @@
   <groupId>org.apache.hbase</groupId>
   <artifactId>hbase</artifactId>
   <packaging>pom</packaging>
-  <version>1.1.2.2</version>
+  <version>1.1.2.3-SNAPSHOT</version>
   <name>Apache HBase</name>
   <description>
     Apache HBase is the Hadoop database. Use it when you need
@@ -81,7 +81,7 @@
     <connection>scm:git:ssh://git@github.com/cloudability/hbase.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/cloudability/hbase.git</developerConnection>
     <url>http://github.com/cloudability/hbase</url>
-    <tag>hbase-1.1.2.2</tag>
+    <tag>hbase-1.1.2.1</tag>
   </scm>
 
   <issueManagement>

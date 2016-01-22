@@ -2390,6 +2390,11 @@
                 <version>${clover.version}</version>
               </dependency>
             </dependencies>
+            <configuration>
+              <maxmemory>2048m</maxmemory>
+              <notimestamp>true</notimestamp>
+              <additionalparam>-Xdoclint:none</additionalparam>
+            </configuration>
           </plugin>
           <plugin>
             <groupId>com.atlassian.maven.plugins</groupId>
@@ -2472,6 +2477,7 @@
         <configuration>
           <maxmemory>2048m</maxmemory>
           <notimestamp>true</notimestamp>
+          <additionalparam>-Xdoclint:none</additionalparam>
         </configuration>
         <reportSets>
           <reportSet>

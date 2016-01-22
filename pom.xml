@@ -78,10 +78,11 @@
     </pluginRepository>
   </pluginRepositories>
   <scm>
-    <connection>scm:git:file:///Users/alok/work/cloudability/builds/hbase</connection>
-    <developerConnection>scm:git:file:///Users/alok/work/cloudability/builds/hbase</developerConnection>
-    <url>http://github.com/cloudability</url>
+    <connection>scm:git:ssh://git@github.com/cloudability/hbase.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/cloudability/hbase.git</developerConnection>
+    <url>http://github.com/cloudability/hbase</url>
   </scm>
+
   <issueManagement>
     <system>JIRA</system>
     <url>http://issues.apache.org/jira/browse/HBASE</url>
